@@ -1,0 +1,111 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General body styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  nav {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Section styling */
+  .section {
+    padding: 2rem;
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  #home {
+    background-color: #e2e2e2;
+  }
+  
+  #about {
+    background-color: #ddd;
+  }
+  
+  #projects {
+    background-color: #f7f7f7;
+  }
+  
+  #contact {
+    background-color: #e2e2e2;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  form label {
+    margin-top: 10px;
+    font-size: 1.1rem;
+  }
+  
+  form input {
+    padding: 0.5rem;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  form button {
+    padding: 0.7rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #555;
+  }
+  
+  .project-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .project {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 250px;
+  }
+  
+  .project h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  
